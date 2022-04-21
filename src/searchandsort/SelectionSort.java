@@ -6,7 +6,7 @@ public class SelectionSort {
     public static void selection(int []a, int n){
         int min;//to store the index of minimum element
         for(int i=0; i<n-1; i++){
-            min=i;
+            min=i; //we need to update the value of min every time to i (important!)
             for(int j=i+1; j<n; j++){
                 if(a[j] < a[min]){
                     min=j;
