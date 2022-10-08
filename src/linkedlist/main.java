@@ -21,5 +21,14 @@ public class main {
         list.displayLL();
         list.deleteValues(85);
         list.displayLL();
+        list.insertAtPosUsingRec(50, 5);
+        list.displayLL();
+        list.sortLL();
+        list.displayLL();
+        list.reverseLLRec();
+        list.displayLL();
+        list.reverseKGroup(3);
+        list.displayLL();
+        System.out.println("hello");
     }
 }
