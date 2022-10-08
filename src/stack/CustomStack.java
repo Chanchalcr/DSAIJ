@@ -1,7 +1,10 @@
 package stack;
-
+//Stack is implemented in java with the help of array.
+//because of this fact there is a possibility of array overflow.
+//to create a stack that does not get full we implement it using a ArrayList.
+//The stack that is implemented with the help of an ArrayList is called a dynamic stack
 public class CustomStack {
-    private int[] data;
+    protected int[] data;
     private static final int DEFAULT_SIZE = 10;
     private int ptr = -1;
 
