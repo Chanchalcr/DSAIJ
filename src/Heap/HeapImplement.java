@@ -7,7 +7,7 @@ public class HeapImplement {
     public static void main(String[] args) {
         int[] A = {10,20,15,12,40,25,18};
         System.out.println(Arrays.toString(A));
-        buildHeap(A, A.length);
+//        buildHeap(A, A.length);
         heapSort(A, A.length);
         System.out.println(Arrays.toString(A));
     }
